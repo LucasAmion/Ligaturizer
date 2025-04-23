@@ -10,7 +10,8 @@ ligatures = [
         'chars': [
             ## These characters generally look good in most fonts and are
             ## enabled by default if you use `--copy-character-glyphs`.
-            'ampersand', 'asciicircum', 'asciitilde', 'asterisk',
+            # 'ampersand',
+            'asciicircum', 'asciitilde', 'asterisk',
             'backslash', 'bar',
             'colon', 'equal', 'exclam', 'greater', 'hyphen',
             'less', 'numbersign', 'percent', 'period', 'plus',
@@ -18,8 +19,9 @@ ligatures = [
 
             ## These characters are also used by the ligatures, but are likely
             ## to look more out of place when spliced into another font.
-            # 'at', 'braceleft', 'braceright', 'bracketleft', 'bracketright',
-            # 'dollar', 'parenleft', 'parenright', 'underscore', 'w'
+            # 'at', 'dollar', 'underscore', 'w'
+            'braceleft', 'braceright', 'bracketleft', 'bracketright',
+            'parenleft', 'parenright',
         ],
         'firacode_ligature_name': None,
     },
@@ -51,10 +53,10 @@ ligatures = [
     #     'firacode_ligature_name': 'f_t.liga',
     # },
     ## Programming ligatures begin here.
-    {   # &&
-        'chars': ['ampersand', 'ampersand'],
-        'firacode_ligature_name': 'ampersand_ampersand.liga',
-    },
+    # {   # &&
+    #     'chars': ['ampersand', 'ampersand'],
+    #     'firacode_ligature_name': 'ampersand_ampersand.liga',
+    # },
     {   # ^=
         'chars': ['asciicircum', 'equal'],
         'firacode_ligature_name': 'asciicircum_equal.liga',
