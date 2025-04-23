@@ -10,8 +10,8 @@ ligatures = [
         'chars': [
             ## These characters generally look good in most fonts and are
             ## enabled by default if you use `--copy-character-glyphs`.
-            # 'ampersand',
-            'asciicircum', 'asciitilde', 'asterisk',
+            # 'ampersand', 'asterisk',
+            'asciicircum', 'asciitilde',
             'backslash', 'bar',
             'colon', 'equal', 'exclam', 'greater', 'hyphen',
             'less', 'numbersign', 'percent', 'period', 'plus',
